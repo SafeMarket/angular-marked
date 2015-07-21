@@ -14,12 +14,21 @@ NG_DOCS={
     },
     {
       "section": "api",
+      "id": "hc.marked",
+      "shortName": "hc.marked",
+      "type": "overview",
+      "moduleName": "hc.marked",
+      "shortDescription": "angular-marked (core module)",
+      "keywords": "adding angular angular-marked api application dependency hc html include installation js load marked module overview ready src started yourapp"
+    },
+    {
+      "section": "api",
       "id": "hc.marked.directive:marked",
       "shortName": "marked",
       "type": "directive",
       "moduleName": "hc.marked",
       "shortDescription": "Compiles source test into HTML.",
-      "keywords": "$scope ae api bind blank block class cols compiled compiles content defaults directive examplea exampleb examplec file function hash hc html include js maincontroller markdown marked module my_markdown net ng-controller ng-include ng-model options opts output override rows scope simple source span8 test text variable view works"
+      "keywords": "$scope ae api bind blank block class cols compiled compiles content defaults directive examplea exampleb examplec file function hash hc html include js maincontroller markdown marked module my_markdown net ng-controller ng-model options opts output override rows scope simple source span8 src test text variable view works"
     },
     {
       "section": "api",
@@ -27,7 +36,7 @@ NG_DOCS={
       "shortName": "marked",
       "type": "service",
       "moduleName": "hc.marked",
-      "shortDescription": "A reference to the marked parser.  Same as $window.marked.",
+      "shortDescription": "A reference to the marked parser.",
       "keywords": "$scope $window api function hc html js maincontroller marked module ng-controller parser reference service test"
     },
     {

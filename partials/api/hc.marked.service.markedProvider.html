@@ -20,35 +20,35 @@
 <div class="tabbable"><div class="tab-pane" title=".html">
 <pre class="prettyprint linenums" ng-set-text=".html"></pre>
 <script type="text/ng-template" id=".html">
-	<marked>
-	```js
-	angular.module('myApp', ['hc.marked'])
-		.config(['markedProvider', function(markedProvider) {
-			markedProvider.setOptions({
-				gfm: true,
-				tables: true,
-				highlight: function (code) {
-					return prettyPrintOne(code);
-				}
-			});
-		}]);
-	```
-	</marked>
+  <marked>
+  ```js
+  angular.module('myApp', ['hc.marked'])
+    .config(['markedProvider', function(markedProvider) {
+      markedProvider.setOptions({
+        gfm: true,
+        tables: true,
+        highlight: function (code) {
+          return prettyPrintOne(code);
+        }
+      });
+    }]);
+  ```
+  </marked>
 </script>
 </div>
 <div class="tab-pane" title=".js">
 <pre class="prettyprint linenums" ng-set-text=".js"></pre>
 <script type="text/ng-template" id=".js">
 angular.module('myApp', ['hc.marked'])
-	.config(['markedProvider', function(markedProvider) {
-		markedProvider.setOptions({
-			gfm: true,
-			tables: true,
-			highlight: function (code) {
-				return prettyPrintOne(code);
-			}
-		});
-	}]);
+  .config(['markedProvider', function(markedProvider) {
+    markedProvider.setOptions({
+      gfm: true,
+      tables: true,
+      highlight: function (code) {
+        return prettyPrintOne(code);
+      }
+    });
+  }]);
 </script>
 </div>
 </div><h4 id="example_demo">Demo</h4>
