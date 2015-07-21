@@ -56,7 +56,8 @@ NG_DOCS={
   "editExample": true,
   "startPage": "/api",
   "scripts": [
-    "angular.min.js",
+    "angular.js",
+    "angular-animate.js",
     "marked.js",
     "angular-marked.js",
     "script.js"
