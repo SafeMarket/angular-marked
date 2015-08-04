@@ -14,7 +14,7 @@
 </div><h2 id="example">Example</h2>
 <div class="example"><div class="index-page"><p>Convert markdown to html at run time.  For example:</p>
 <h4 id="example_source">Source</h4>
-<div source-edit="hc.marked" source-edit-deps="angular.js .js" source-edit-html=".html" source-edit-css="" source-edit-js=".js" source-edit-json="" source-edit-unit="" source-edit-scenario=""></div>
+<div source-edit="app" source-edit-deps="angular.js .js" source-edit-html=".html" source-edit-css="" source-edit-js=".js" source-edit-json="" source-edit-unit="" source-edit-scenario=""></div>
 <div class="tabbable"><div class="tab-pane" title=".html">
 <pre class="prettyprint linenums" ng-set-text=".html"></pre>
 <script type="text/ng-template" id=".html">
@@ -32,9 +32,10 @@
     function MainController($scope) {
       $scope.my_markdown = "*This* **is** [markdown](https://daringfireball.net/projects/markdown/)";
     }
+    angular.module('app', ['hc.marked']).controller('MainController', MainController);
   </script>
 </div>
 </div><h4 id="example_demo">Demo</h4>
-<div class="well doc-example-live animate-container" ng-embed-app="hc.marked" ng-set-html=".html" ng-eval-javascript=".js"></div>
+<div class="well doc-example-live animate-container" ng-embed-app="app" ng-set-html=".html" ng-eval-javascript=".js"></div>
 </div></div>
 </div>

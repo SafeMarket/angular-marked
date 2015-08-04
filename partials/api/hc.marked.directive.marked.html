@@ -20,7 +20,7 @@ as attribute<pre class="prettyprint linenums">&lt;any marked="{expression}"
 </div></td></tr></tbody></table></div>
 <h2 id="example">Example</h2>
 <div class="example"><div class="hc-marked-directive-page hc-marked-directive-marked-page"><h4 id="example_a-simple-block-of-text">A simple block of text</h4>
-<p> <h4 id="example_source">Source</h4>
+<p>  <h4 id="example_source">Source</h4>
 <div source-edit="hc.marked" source-edit-deps="angular.js" source-edit-html="exampleA.html" source-edit-css="" source-edit-js="" source-edit-json="" source-edit-unit="" source-edit-scenario=""></div>
 <div class="tabbable"><div class="tab-pane" title="exampleA.html">
 <pre class="prettyprint linenums" ng-set-text="exampleA.html"></pre>
@@ -32,23 +32,23 @@ as attribute<pre class="prettyprint linenums">&lt;any marked="{expression}"
 
 *This* **is** [markdown](https://daringfireball.net/projects/markdown/) in the view.
 </marked>
-   </script>
+    </script>
 </div>
 </div><h4 id="example_demo">Demo</h4>
 <div class="well doc-example-live animate-container" ng-embed-app="hc.marked" ng-set-html="exampleA.html" ng-eval-javascript=""></div>
 <h4 id="example_bind-to-a-scope-variable">Bind to a scope variable</h4>
-<p> <h4 id="example_source">Source</h4>
-<div source-edit="hc.marked" source-edit-deps="angular.js exampleB.js" source-edit-html="exampleB.html" source-edit-css="" source-edit-js="exampleB.js" source-edit-json="" source-edit-unit="" source-edit-scenario=""></div>
+<p>  <h4 id="example_source">Source</h4>
+<div source-edit="app" source-edit-deps="angular.js exampleB.js" source-edit-html="exampleB.html" source-edit-css="" source-edit-js="exampleB.js" source-edit-json="" source-edit-unit="" source-edit-scenario=""></div>
 <div class="tabbable"><div class="tab-pane" title="exampleB.html">
 <pre class="prettyprint linenums" ng-set-text="exampleB.html"></pre>
 <script type="text/ng-template" id="exampleB.html">
-     <form ng-controller="MainController">
-       Markdown:<br />
-       <textarea ng-model="my_markdown" class="span8" cols="60" rows="5"></textarea><br />
-       Output:<br />
-       <blockquote marked="my_markdown"></blockquote>
-     </form>
-   </script>
+      <form ng-controller="MainController">
+        Markdown:<br />
+        <textarea ng-model="my_markdown" class="span8" cols="60" rows="5"></textarea><br />
+        Output:<br />
+        <blockquote marked="my_markdown"></blockquote>
+      </form>
+    </script>
 </div>
 <div class="tab-pane" title="exampleB.js">
 <pre class="prettyprint linenums" ng-set-text="exampleB.js"></pre>
@@ -57,18 +57,19 @@ function MainController($scope) {
 $scope.my_markdown = '*This* **is** [markdown](https://daringfireball.net/projects/markdown/)';
 $scope.my_markdown += ' in a scope variable';
 }
-   </script>
+angular.module('app', ['hc.marked']).controller('MainController', MainController);
+    </script>
 </div>
 </div><h4 id="example_demo">Demo</h4>
-<div class="well doc-example-live animate-container" ng-embed-app="hc.marked" ng-set-html="exampleB.html" ng-eval-javascript="exampleB.js"></div>
+<div class="well doc-example-live animate-container" ng-embed-app="app" ng-set-html="exampleB.html" ng-eval-javascript="exampleB.js"></div>
 <h4 id="example_include-a-markdown-file">Include a markdown file:</h4>
-<p>  <h4 id="example_source">Source</h4>
+<p>   <h4 id="example_source">Source</h4>
 <div source-edit="hc.marked" source-edit-deps="angular.js" source-edit-html="exampleC.html include.html" source-edit-css="" source-edit-js="" source-edit-json="" source-edit-unit="" source-edit-scenario=""></div>
 <div class="tabbable"><div class="tab-pane" title="exampleC.html">
 <pre class="prettyprint linenums" ng-set-text="exampleC.html"></pre>
 <script type="text/ng-template" id="exampleC.html">
-      <div marked src="'include.html'" />
-    </script>
+       <div marked src="'include.html'" />
+     </script>
 </div>
 <div class="tab-pane" title="include.html">
 <pre class="prettyprint linenums" ng-set-text="include.html"></pre>

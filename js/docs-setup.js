@@ -10,7 +10,7 @@ NG_DOCS={
       "type": "overview",
       "moduleName": "index",
       "shortDescription": "AngularJS Markdown using marked.",
-      "keywords": "$scope angularjs api class cols convert default defaults directive example expose function globally hc html js maincontroller markdown marked module my_markdown net ng-controller ng-model option options output overview rows service set span8 time wanted"
+      "keywords": "$scope angular angularjs api app class cols controller convert default defaults directive example expose function globally hc html js maincontroller markdown marked module my_markdown net ng-controller ng-model option options output overview rows service set span8 time wanted"
     },
     {
       "section": "api",
@@ -28,7 +28,7 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "hc.marked",
       "shortDescription": "Compiles source test into HTML.",
-      "keywords": "$scope ae api bind blank block class cols compiled compiles content defaults directive examplea exampleb examplec file function hash hc html include js maincontroller markdown marked module my_markdown net ng-controller ng-model options opts output override rows scope simple source span8 src test text variable view works"
+      "keywords": "$scope ae angular api app bind blank block class cols compiled compiles content controller defaults directive examplea exampleb examplec file function hash hc html include js maincontroller markdown marked module my_markdown net ng-controller ng-model options opts output override rows scope simple source span8 src test text variable view works"
     },
     {
       "section": "api",
@@ -37,7 +37,7 @@ NG_DOCS={
       "type": "service",
       "moduleName": "hc.marked",
       "shortDescription": "A reference to the marked parser.",
-      "keywords": "$scope $window api function hc html js maincontroller marked module ng-controller parser reference service test"
+      "keywords": "$scope $window angular api app controller function hc html js maincontroller marked module ng-controller parser reference service test"
     },
     {
       "section": "api",
