@@ -28,7 +28,7 @@ NG_DOCS={
       "type": "directive",
       "moduleName": "hc.marked",
       "shortDescription": "Compiles source test into HTML.",
-      "keywords": "$scope ae angular api app bind blank block class cols compiled compiles content controller defaults directive examplea exampleb examplec file function hash hc html include js maincontroller markdown marked module my_markdown net ng-controller ng-model options opts output override rows scope simple source span8 src test text variable view works"
+      "keywords": "$scope ae angular api app bind blank block class cols compiled compiles constant content controller defaults directive evaluating examplea exampleb examplec expression file function hash hc html include js maincontroller markdown marked module my_markdown mypartialtemplate net ng-controller ng-model options opts output override quotes rows scope simple source span8 src string test text url variable view works wrap"
     },
     {
       "section": "api",
@@ -37,7 +37,7 @@ NG_DOCS={
       "type": "service",
       "moduleName": "hc.marked",
       "shortDescription": "A reference to the marked parser.",
-      "keywords": "$scope $window angular api app controller function hc html js maincontroller marked module ng-controller parser reference service test"
+      "keywords": "$scope $window angular api app controller example function hc html js maincontroller marked module ng-controller parser reference service test"
     },
     {
       "section": "api",
@@ -46,7 +46,7 @@ NG_DOCS={
       "type": "service",
       "moduleName": "hc.marked",
       "shortDescription": "Use markedProvider to change the default behavior of the marked service.",
-      "keywords": "angular api behavior change config default example function gfm google google-code-prettify hc highlight highlighter html include javascript js marked markedprovider method module myapp options options-1 opts org prettyprintone return script service setoptions syntax tables true works"
+      "keywords": "_blank angular api attribute behavior change config custom default displayed example examplea exampleb function gfm google google-code-prettify hc highlight highlighter href html include inline javascript js link links markdown marked markedprovider method module myappa myappb net options options-1 opts org overriding overriding-renderer-methods prettyprintone renderer return script service setoptions setrenderer syntax tables target text title true works"
     }
   ],
   "apis": {
